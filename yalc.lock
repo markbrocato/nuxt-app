@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@edgio/cli": {
+      "signature": "c1ae0b353d14e30469e32e33156024eb",
+      "file": true,
+      "replaced": "^7.2.1"
+    }
+  }
+}

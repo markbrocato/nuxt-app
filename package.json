@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@edgio/cli": "file:.yalc/@edgio/cli",
+    "@edgio/core": "^7.2.1",
+    "@edgio/devtools": "^7.2.1",
+    "@edgio/nuxt-nitro": "^7.2.1",
+    "@edgio/prefetch": "^7.2.1",
+    "@edgio/vue": "^7.2.1",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5"
+  }
+}
